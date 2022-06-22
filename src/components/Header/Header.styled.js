@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 const StyledHeader = styled.header`
+
+  border-radius:
   background-color: ${({ theme }) => theme.colors.accent};
-  color: ${({ theme }) => theme.colors.background};
+  color: #fffffe;
   text-align: center;
 
   p {
