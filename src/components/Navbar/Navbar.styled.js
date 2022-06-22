@@ -24,7 +24,7 @@ backdrop-filter: blur( 6px );
 
   a {
     position: relative;
-    color: ;
+    
     text-decoration: none;
   }
 
