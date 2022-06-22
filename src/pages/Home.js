@@ -7,7 +7,7 @@ import { ThemeProvider } from "styled-components";
 const Home = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
+      <Header title="Hi, I'm radwtsm" subtitle="frontend developer" additional="Lecce, Italy 🇮🇹"/>
     </ThemeProvider>
   );
 };

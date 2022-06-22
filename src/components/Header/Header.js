@@ -1,11 +1,12 @@
 import React from "react";
 
 import StyledHeader from "./Header.styled";
-const Header = () => {
+const Header = (props) => {
   return (
     <StyledHeader>
-      <p>Hi, I'm radwtsm//</p>
-      <p>Frontend Devoper</p>
+      <p>{props.title}</p>
+      <p>{props.subtitle}</p>
+      <p>{props.additional}</p>
     </StyledHeader>
   );
 };
