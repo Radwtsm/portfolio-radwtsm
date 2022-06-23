@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Projects from "./pages/Projects";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Navbar />
-      
+      <ScrollToTop>
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -25,6 +26,7 @@ function App() {
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      </ScrollToTop>
       <Footer />
       </ThemeProvider>
     </BrowserRouter>
