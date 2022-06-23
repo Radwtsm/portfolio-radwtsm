@@ -25,6 +25,7 @@ function App() {
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <h1>cool</h1>
     </BrowserRouter>
   );
 }

@@ -12,6 +12,12 @@ const theme = {
     lg: "992px",
     xl: "1200",
   },
+
+  fontsize: {
+    header: "4rem",
+    subtitle: "2rem",
+    paragraph: "1rem",
+  },
 };
 
 export default theme;
