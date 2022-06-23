@@ -7,24 +7,24 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <Header title="Projects" />
+      <Header title="Projects" subtitle="my favourite ones🔥" />
       <StyledMargin>
         <Card
           title="Giochigiò"
           img="https://www.linkpicture.com/q/giochigio_landing_page.jpg"
-          info="sito fatto interamente da me"
+          info="E-commerce con più di 1200+ prodotti"
           url="https://giochigio.it/"
         />
         <Card
           title="Tagliacozzo Festival"
           img="https://www.linkpicture.com/q/tagliacozzo_landing_page.jpg"
-          info="sito fatto interamente da me"
+          info="Sito web realizzato per Festival di livello Internazionale"
           url="https://www.tagliacozzofestival.com/"
         />
         <Card
           title="Jacopo Sipari di Pescasseroli"
           img="https://www.linkpicture.com/q/jacoposipari_landing_page.jpg"
-          info="sito fatto interamente da me"
+          info="Landing page per prestigioso direttore d'orchestra"
           url="http://www.jacoposiparidipescasseroli.it/"
         />
       </StyledMargin>
