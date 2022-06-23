@@ -4,21 +4,29 @@ const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  padding: 9%;
+  padding: 6%;
 
-  margin: 5% 0px;
+  margin: 8% 0px;
 
   font-size: ${({ theme }) => theme.fontsize.paragraph};
 
+  color: white;
+
   h3 {
+    margin-bottom: 6%;
     font-size: ${({ theme }) => theme.fontsize.subtitle};
   }
 
+  p {
+    margin-top: 6%;
+  }
   img {
-    width: 50%;
+    border-radius: 10px;
+    width: 100%;
   }
 `;
 

@@ -11,8 +11,21 @@ const Projects = () => {
       <StyledMargin>
         <Card
           title="Giochigiò"
-          img="https://i.ibb.co/V20kWss/giochigi.png"
+          img="https://www.linkpicture.com/q/giochigio_landing_page.jpg"
           info="sito fatto interamente da me"
+          url="https://giochigio.it/"
+        />
+        <Card
+          title="Tagliacozzo Festival"
+          img="https://www.linkpicture.com/q/tagliacozzo_landing_page.jpg"
+          info="sito fatto interamente da me"
+          url="https://www.tagliacozzofestival.com/"
+        />
+        <Card
+          title="Jacopo Sipari di Pescasseroli"
+          img="https://www.linkpicture.com/q/jacoposipari_landing_page.jpg"
+          info="sito fatto interamente da me"
+          url="http://www.jacoposiparidipescasseroli.it/"
         />
       </StyledMargin>
     </>
