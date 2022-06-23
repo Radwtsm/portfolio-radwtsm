@@ -18,6 +18,10 @@ const theme = {
     subtitle: "2rem",
     paragraph: "1rem",
   },
+
+  fonts: {
+    main: `"Oswald", sans-serif`,
+  },
 };
 
 export default theme;

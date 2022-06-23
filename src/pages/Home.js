@@ -1,6 +1,8 @@
 import Header from "../components/Header/Header";
 import IconsGallery from "../components/IconsGallery/IconsGallery";
+import { NavLink } from "react-router-dom";
 import StyledMargin from "../components/Margin/Margin.styled";
+import StyledButton from "../components/Button/Button.styled";
 import WhoAmI from "../components/WhoAmI/WhoAmI";
 import React from "react";
 import theme from "../styles/Theme";
@@ -189,6 +191,11 @@ const Home = () => {
             </svg>
           }
         />
+        <StyledButton>
+          <NavLink to="/projects">
+            <p className="button">Check out my projects</p>
+          </NavLink>
+        </StyledButton>
       </StyledMargin>
     </ThemeProvider>
   );

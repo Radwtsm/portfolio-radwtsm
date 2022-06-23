@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Projects from "./pages/Projects";
-import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Navbar />
-      </ThemeProvider>
+      
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -25,7 +25,8 @@ function App() {
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <h1>cool</h1>
+      <Footer />
+      </ThemeProvider>
     </BrowserRouter>
   );
 }
