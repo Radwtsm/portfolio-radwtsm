@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Header
-        title="Hi, I'm radwtsm"
+        title="radwtsm//"
         subtitle="frontend developer"
         additional="Lecce, Italy 🇮🇹"
       />

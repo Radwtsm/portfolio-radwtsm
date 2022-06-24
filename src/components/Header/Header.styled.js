@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
   border: 1px solid rgba(255, 255, 255, 0.18);
 
-  padding: 30px;
+  padding: 5%;
 
   background-color: ${({ theme }) => theme.colors.accent};
   color: #fffffe;

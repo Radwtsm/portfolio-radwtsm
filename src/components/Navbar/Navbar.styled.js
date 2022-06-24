@@ -29,7 +29,7 @@ const StyledNavbar = styled.nav`
     display: block;
     width: 100%;
     height: 0.3rem;
-    top: 1.5rem;
+    top: 1.8rem;
     left: 0;
     background-color: ${({ theme }) => theme.colors.accent};
     transform: scaleX(0);

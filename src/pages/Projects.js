@@ -7,7 +7,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <Header title="Projects" subtitle="my favourite ones🔥" />
+      <Header title="PROJECTS" subtitle="my favourite ones🔥" />
       <StyledMargin>
         <Card
           title="Giochigiò"
