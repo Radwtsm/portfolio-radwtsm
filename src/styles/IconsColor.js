@@ -18,6 +18,12 @@ const StyledIconsColor = styled.div`
   svg {
     width: 40%;
   }
+
+  button{
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      padding:10%;
+  }
 `;
 
 export default StyledIconsColor;
