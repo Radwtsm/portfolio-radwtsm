@@ -19,7 +19,7 @@ const StyledCard = styled.div`
   h3 {
     margin-bottom: 6%;
     font-size: ${({ theme }) => theme.fontsize.subtitle};
-    font-weight: 700;
+    font-weight: 600;
   }
 
   p {

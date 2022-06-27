@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledButton = styled.div`
   .button {
-    font-size: ${({ theme }) => theme.fontsize.subtitle};
+    font-size: ${({ theme }) => theme.fontsize.paragraph};
     background-color: ${({ theme }) => theme.colors.main};
     color: rgba(255, 255, 255, 0.18);
     margin: 10% auto;

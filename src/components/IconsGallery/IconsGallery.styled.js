@@ -24,7 +24,7 @@ const StyledIconsGallery = styled.div`
 const StyledAlignment = styled.div`
   h2 {
     font-size: ${({ theme }) => theme.fontsize.subtitle};
-    font-weight: bolder;
+    font-weight: 600;
     margin: 3% 0px;
   }
 
