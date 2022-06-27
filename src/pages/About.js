@@ -64,8 +64,6 @@ const About = () => {
               </a>
             }
           />
-          =======
-          <ButtonIcon icon={<EmailIcon />} text="email" />
         </StyledIconsColor>
       </StyledMargin>
     </>
