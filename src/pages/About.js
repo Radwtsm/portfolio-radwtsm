@@ -4,6 +4,7 @@ import TextSection from "../components/TextSection/TextSection";
 import StyledMargin from "../components/Margin/Margin.styled";
 
 import Header from "../components/Header/Header";
+import ButtonIcon from "../components/ButtonIcon/ButtonIcon";
 
 import React from "react";
 
@@ -14,7 +15,8 @@ const About = () => {
       <StyledMargin>
         <TextSection title="If you need to get in touch with me" />
         <StyledIconsColor>
-          <h1>Add contact here</h1>
+          <ButtonIcon icon={<EmailIcon/>} text="email"/>
+            
         </StyledIconsColor>
       </StyledMargin>
     </>
